@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
+import './App.css';
+import Clock from './Clock';
 
-import Clock from "./Clock";
-
-function App() {
+export default function App() {
   const [showClock, setShowClock] = useState(true);
 
   return (
@@ -13,4 +13,4 @@ function App() {
   );
 }
 
-export default App;
+
